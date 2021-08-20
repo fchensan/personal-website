@@ -36,6 +36,7 @@ const Index = () => (
       title="RTOS-based Robot Car" 
       description="A robot car controlled by a KL25Z microcontroller, programmed using Keil RTX RTOS. 
       It can be controlled via Bluetooth from a mobile app. This project was done in a team of three for an NUS module."
+      image={<StaticImage src="../images/car.png" />}
     />
   </Layout>
 );
