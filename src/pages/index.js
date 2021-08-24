@@ -18,10 +18,20 @@ const Index = () => (
       </div>
     </section>
     <h2 className="mt-20 mx-auto text-center text-3xl lg:text-5xl font-semibold">Projects</h2>
+    <Project id={0} 
+      title="Campus Canteen Picker" 
+      techUsed="ReactJS"
+      description="A web app to help NUS students decide what to eat. This project is still under development."
+      buttonText="See it live (beta)"
+      buttonLink="https://nuseatwhat.netlify.app/"
+      image={<StaticImage src="../images/nuseatwhat.png" />}
+    />
     <Project id={1} 
       title="Teleteam" 
+      techUsed="Django, ReactJS"
       description="Teleteam is a task manager helping college students on their group projects. This project was built under NUS SoC's Orbital programme.
       Shout out to my friend, Ivander Jonathan, for being such an amazing teammate in developing this app."
+      buttonText="Learn more"
       buttonLink="https://www.notion.so/Teleteam-d69d6ac7d698457792a2faa3eadf2d59"
       image={<StaticImage src="../images/teleteam.png" />}
     />
@@ -34,6 +44,7 @@ const Index = () => (
     />
     <Project id={3} 
       title="RTOS-based Robot Car" 
+      techUsed="Keil RTX RTOS"
       description="A robot car controlled by a KL25Z microcontroller, programmed using Keil RTX RTOS. 
       It can be controlled via Bluetooth from a mobile app. This project was done in a team of three for an NUS module."
       image={<StaticImage src="../images/car.png" />}
